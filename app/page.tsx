@@ -2,8 +2,8 @@ export const metadata = {
   title: "منصة المدرسين | Hassan Platform",
   description: "أفضل منصة للبحث عن مدرسين لكل المراحل التعليمية",
 };
-"use client"
-import Head from "next/head"
+
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
