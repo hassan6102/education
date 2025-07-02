@@ -1,5 +1,5 @@
 "use client"
-
+import Head from "next/head"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -31,6 +31,11 @@ export default function HomePage() {
   }
 
   return (
+      <>
+      <Head>
+        <title>منصة المدرسين | Hassan Platform</title>
+        <meta name="description" content="أفضل منصة للبحث عن مدرسين لكل المراحل التعليمية" />
+      </Head>
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white" dir="rtl">
       {/* Header */}
       <header className="bg-white shadow-sm border-b sticky top-0 z-50 backdrop-blur-sm bg-white/95">
